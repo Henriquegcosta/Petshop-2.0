@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catmovel 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Cabecalho">
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="agenda.html" class="On">Agendamento</a></li>
+                <li><a href="#">SAC</a></li>
+                <li><a href="#">Adotar</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <center>
+    <div class="calendar">
+        <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>Agosto<br><span style="font-size:18px;text-align: center;">2022</span></li>
+            </ul>
+        </div>
+        
+        <ul class="weekdays">
+            <li>Dom</li>
+            <li>Seg</li>
+            <li>Ter</li>
+            <li>Qua</li>
+            <li>Qui</li>
+            <li>Sex</li>
+            <li>Sab</li>
+        </ul>
+        
+        <ul class="days">
+            <li><span class="active">1</span></li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li><span class="active">8</span></li>
+            <li><span class="active">9</span></li>
+            <li><span class="active10">10</span></li>
+            <li><span class="active10">11</span></li></li>
+            <li><span class="active10">12</span></li>
+            <li><span class="active10">13</span></li>
+            <li><span class="active10">14</span></li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li><span class="active10">20</span></li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li><span class="otherm">1</span></li>
+            <li><span class="otherm">2</span></li>
+            <li><span class="otherm">3</span></li>
+            <li><span class="otherm">4</span></li>
+        </ul>
+    </div>
+    <h4 style="color: #666;text-decoration: underline;font-weight: bold;">Os dias disponiveis possuem fundo verde</h4>
+    </center>
+
+    
+    <div class="agendar">
+        <form>
+            <center>
+            <fieldset>
+            <legend style="color: black;">Informaçoes</legend>
+            <label for="name">Nome completo:</label>
+            <input type="text" name="name" id="name" placeholder="Nome Sobrenome" required>
+            <br>
+            <label for="main">E-mail:</label>
+            <input type="email" name="mail" id="mail" placeholder="exemplo@gmail.com" required>
+            <br>
+            <label for="day">Data</label>
+            <input type="date" name="day" id="day" required>
+            <br>
+
+            <div class="inputradio">
+                    <input type="radio" id="Banho" name="Test" value="Banho" required>
+                    <label for="Banho">Banho/tosa</label>
+
+                    <input type="radio" id="Consulta" name="Test" value="Consulta" required>
+                    <label for="Consulta">Consulta Vet</label>
+
+                    <input type="radio" id="Emergencia" name="Test" value="Emergencia" required>
+                    <label for="Emergencia">Emergencia</label>
+            </div>
+            <br>
+            <input type="submit" value="Enviar" class="Sub">
+
+            
+            </center>
+            
+
+        </form>
+    </div>
+
+    <footer>
+        <h3>Todos os direitos reservados ©</h3>
+        <h3>Autor: Henrique Gonçalves Costa</h3>
+        <h3>The best site</h3>
+    </footer>
+
+</body>
+</html>
