@@ -293,6 +293,10 @@ input{
 fieldset{
     text-align: center;
     width: 500px;
+    background: #10746079;
+    border-radius: 10px;
+    border-color: #1abc9c;
+    
 
 }
 
@@ -302,8 +306,32 @@ fieldset{
     background: #111111;
     color: white;
     border-color: gold;
+    
 }
 
 .Sub:hover{
     background: #333333;
+}
+
+/*Sac */
+
+.SAC h2{
+    color: black;
+}
+
+.sactxt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.opc{
+    color: #333333a2;
+    font-size: 10px;
+}
+
+.cas{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

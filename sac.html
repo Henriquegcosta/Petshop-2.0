@@ -5,8 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catmovel 2.0</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="Cabecalho">
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="agenda.html">Agendamento</a></li>
+                <li><a href="sac.html" class="On">SAC</a></li>
+                <li><a href="#">Adotar</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <section class="SAC">
+        <div class="sactxt">
+            <h2>Bem vindo ao nosso SAC</h2>
+            <p>Aqui voce pode fazer tickets para feedbacks, esses que sao muito importantes para nos</p>
+
+
+        </div>
+
+        <center>
+        <div class="form">
+            <fieldset class="cas">
+                <legend style="color: black;font-weight: bold;">SAC</legend>
+                <form>
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                    <br>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" name="mail" id="mail" placeholder="Email@gmail.com" required>
+                    <br>
+                    <label for="ticket">Qual o motivo do ticket?</label>
+                    <select name="tickets" id="tickets" required>
+                        <option>Atendimento</option>
+                        <option>Reclamação</option>
+                        <option>Duvidas sobre agendamento</option>
+                        <option>Reagendamento</option>
+                        <option>Outro</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Nos de mais detalhes:</label>
+                    <br>
+                    <textarea name="Area" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <label for="nota" class="nota">Qual sua nota para nosso site? <span class="opc">Opcional*</span></label>
+                    <br>
+                    <input type="radio" id="Nota1" name="Nota" value="NOTA1">
+                    <label for="nota1">1</label>
+                    <input type="radio" id="Nota2" name="Nota" value="NOTA2">
+                    <label for="nota2">2</label>
+                    <input type="radio" id="Nota3" name="Nota" value="NOTA3">
+                    <label for="nota3">3</label>
+                    <input type="radio" id="Nota4" name="Nota" value="NOTA4">
+                    <label for="nota4">4</label>
+                    <input type="radio" id="Nota5" name="Nota" value="NOTA5">
+                    <label for="nota5">5</label>
+
+                    <br>
+                    <input type="submit" value="Enviar" class="Sub">
+
+                </form>
+            </fieldset>
+        </div>
+    </center>
+    </section>
+
+    <footer>
+        <h3>Todos os direitos reservados ©</h3>
+        <h3>Autor: Henrique Gonçalves Costa</h3>
+        <h3>The best site</h3>
+    </footer>
+
 </body>
 </html>
