@@ -20,6 +20,18 @@ body{
     
 }
 
+.Cabecalho img{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.Logo{
+    font-weight: bold;
+    color: #1abc9c;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+}
+
 .Cabecalho ul{
     background-color: #333333;
     overflow: hidden;
@@ -41,7 +53,7 @@ body{
     text-decoration: underline;
 }
 
-.Cabecalho ul a:hover{
+.Cabecalho ul .a:hover{
     background-color: #111111;
 }
 
@@ -334,4 +346,27 @@ fieldset{
 .cas{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*Adote*/
+
+
+
+.imgsa table{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    border-spacing: 10px;
+}
+
+.TableP td {
+    color: black;
+    
+}
+
+
+.NameP td{
+    font-weight: bold;
 }
