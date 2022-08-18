@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
@@ -348,6 +348,11 @@ fieldset{
     margin-bottom: 20px;
 }
 
+#Area {
+    color: black;
+    padding: 3px;
+}
+
 /*Adote*/
 
 
@@ -369,9 +374,4 @@ fieldset{
 
 .NameP td{
     font-weight: bold;
-}
-
-.contact{
-    font-weight: bold;
-    text-decoration: underline;
 }
